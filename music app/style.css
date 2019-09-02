@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Arvo", sans-serif;
+  letter-spacing: 2px;
+}
+
+.wrapper{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+header h1{
+  margin: 50px 0 20px 0;
+  font-size: 40px;
+}
+
+header p{
+  font-size: 18px;
+  margin-left: 20px;
+  opacity: 0.5;
+}
+
+.pads{
+  background: lightblue;
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 10%;
+}
+
+.pads div{
+  height: 100px;
+  width: 100px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pad1{
+background:#668cff;
+}
+.pad2{
+background:#ff0066;
+}
+.pad3{
+background:#e6e600;
+}
+.pad4{
+background:#33cc00;
+
+}
+.pad5{
+background:#9933ff;
+}
+.pad6{
+background:#ffb84d;
+}
